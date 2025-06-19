@@ -1,0 +1,218 @@
+*{ margin: 0; padding: 0; list-style: none;}
+
+body{
+  // font-size: clamp(16px,40vw,20px);
+  width: 100vw;
+  // height: 100vh;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+}
+
+.app{
+  // background-image: url(./images/p8.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  width: 90%;
+  height: 70vh;
+  position: relative;
+  text-align: center;
+  border-radius: 30px;
+  margin: 3rem auto;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  // background-color: #eee;
+
+  // display: grid;
+  // grid-template-areas:
+  //   "header header"
+  //   "main     main"
+  //   " .        .  "
+  // ;
+// justify-content: center;
+//   grid-template-columns: repeat(2, 1fr);
+//   grid-template-rows: repeat(3, 1fr);
+//   grid-column: 1 / 2;
+
+
+}
+.mode{
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: none;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.weather-box{
+  width: 200px;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #1e90ff;
+  color: #fff;
+  // box-shadow: 0px 0px 10px rgba(0,0,0,0.12);
+  gap: 2rem;
+  position: absolute;
+  top: 0%;
+  right: 0;
+  // transform: translate(-50%, -50%);
+}
+.weather-city{
+  font-size: 1rem;
+  text-align: right;
+}
+
+.time{
+  width: 80%;
+  font-size: clamp(16px,10vw,8rem);
+  font-weight: bolder;
+  // background-color: #222;
+  border: 1px solid #888;
+  border-radius: 20px;
+  padding: 1rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-box{
+  margin: 2rem 0;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-btn{
+  padding: 0.5rem;
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: #fff;
+  cursor: pointer;
+}
+.inputbox{
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 3px rgba(0,0,0,0.12);
+}
+
+.main-box{
+  width: 15%;
+  padding: 1rem 0.5rem;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+.main-box > h2{
+  border: 1px solid #1e90ff;
+  border-radius: 25px;
+  padding: 0.5rem;
+  color: #222;
+  background-color: #fff;
+}
+.main-box > button{
+  border: 1px solid #1e90ff;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.quote{
+  width: 300px;
+  height: 200px;
+  border: 1px solid #1e90ff;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 5%;
+  left: 8%;
+  // transform: translate(-50%,-50%);
+}
+.quote > p:nth-child(1){
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.quote > p:nth-child(2){
+  padding: 0 1rem;
+  color: #222;
+}
+
+.todoform{
+  width: 300px;
+  height: 200px;
+  border: 1px solid #1e90ff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: 5%;
+  left: 38%;
+}
+.todoform > input{
+  padding: 10px;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.12);
+}
+.todoform > button{
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 0 4rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #1e90ff;
+  cursor: pointer;
+}
+
+.todolist{
+  width: 300px;
+  height: 200px;
+  border: 1px solid #1e90ff;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 5%;
+  right: 8%;
+}
+.todolist > p{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 1rem 0;
+}
+.todolist > li{
+  margin: 5px 0;
+}
+.todolist > li > span{
+  font-weight: bolder;
+  padding: 0 5px;
+}
+.todolist > li > button{
+  padding: 1px 5px;
+  border: 1px solid #1e90ff;
+  border-radius: 5px;
+  font-weight: bolder;
+  color: #1e90ff;
+  cursor: pointer;
+}
