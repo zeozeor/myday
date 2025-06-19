@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/myday/static/css/main.5f871ac6.css",
+    "main.js": "/myday/static/js/main.5228fbab.js",
+    "static/media/p8.jpg": "/myday/static/media/p8.dda83872582240f73720.jpg",
+    "index.html": "/myday/index.html",
+    "main.5f871ac6.css.map": "/myday/static/css/main.5f871ac6.css.map",
+    "main.5228fbab.js.map": "/myday/static/js/main.5228fbab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f871ac6.css",
+    "static/js/main.5228fbab.js"
+  ]
+}
