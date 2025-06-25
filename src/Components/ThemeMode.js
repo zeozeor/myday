@@ -20,7 +20,7 @@ const ThemeMode = () => {
     document.body.style.backgroundColor = "#fff";
     document.body.style.color = "#1e90ff";
   }
-  console.log( typeof(theme) );
+  
   return (
     <button className="mode" onClick={handleClick}>
       {theme? "라이트모드":"블루모드"}
